@@ -1,38 +1,71 @@
-.App {
+.form {
+  width: 500px;
+}
+
+.container {
+  background-image: url('https://ibb.co/LSmrz7j');
+  padding: 2.5% 20%;
+}
+
+* {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.jumbotron {
+  margin: 100px auto;
+  max-width: 50%;
+  text-align: center;
+}
+
+.card {
+  width: 18rem;
+  margin: 100px auto;
+}
+
+.landpage-image {
+  background: url(image/bg.jpeg) no-repeat center center;
+  height: 100vh;
+  background-size: cover;
+  /* padding: 7% 10%; */
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/* @media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+} */
+/* xs < 768 */
+/*@media screen and (max-width: 767px) {
+  landpage-image {
+    font-size: 0.9em;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* sm */
+/* @media screen and (min-width: 768px) {
+  landpage-image {
+    font-size: 1em;
   }
-  to {
-    transform: rotate(360deg);
+} */
+
+/* md */
+/* @media screen and (min-width: 992px) {
+  landpage-image {
+    font-size: 1.2em;
   }
-}
+} */
+
+/* lg */
+/* @media screen and (min-width: 1200px) {
+  landpage-image {
+    font-size: 1.3em;
+  }
+} */
